@@ -1,0 +1,83 @@
+<html>
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+		<style>
+			body {
+				display: flex;
+				flex-flow: row nowrap;
+				justify-content: center;
+				align-items: center;
+				height: 100%;
+				width: 100%;
+				font-family: "JetBrains Mono",Tahoma, sans-serif;
+				background-color: rgb(240, 240, 240);
+				gap: 2%;
+			}
+			.featured-image {
+				background-image: url("assets/product.webp");
+				background-position: center;
+				background-size: cover;
+				height: 60%;
+				width: 20%;
+				border-radius: 10px;
+			}
+			.right {
+				display: flex;
+				flex-flow: column nowrap;
+				justify-content: flex-start;
+				height: 50%;
+				width: 30%;
+			}
+			.feature-content {
+				display: flex;
+				justify-content: flex-start;
+				flex-flow: column nowrap;
+				flex-grow: 2;
+			}
+			.vspace {
+				flex-grow: 1;
+			}
+			.information {
+				width: 60%;
+			}
+			.interaction {
+				display: flex;
+				flex-flow: row nowrap;
+				gap: 10px;
+			}
+			.cta {
+				background-color: rgb(110,145,110);
+				padding: 15px;
+				color: white;
+				border-radius: 20px;
+			}
+			h1 {
+				padding-bottom:30px;
+			}
+		</style>
+	</head>
+	<body>
+
+		<div class = "featured-image">
+		</div>
+		<div class = "right">
+			<div class = "vspace"></div>
+			<div class = "feature-content">
+				<div class = "information">
+					<h1> Gazzew Boba U4Ts </h1>
+					<p> Tactile switches with signature thocks. Made from boba plastic housing and POM stems</p>
+					<p> <b>Actuation:</b> 62g </p>
+					<p> <b>Pin configuration:</b> 5pin </p>
+				</div>
+				<div class = "interaction">
+					<div class = "cta">Add to cart</div>
+					<div class = "cta">Buy now</div>
+				</div>	
+			</div>
+			<div class = "vspace"></div>
+		</div>
+
+	</body>
+</html>
