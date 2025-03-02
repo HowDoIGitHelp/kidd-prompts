@@ -1,0 +1,139 @@
+<html>
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Rozha+One&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap" rel="stylesheet">
+		<style>
+			html {
+				background: rgb(240,240,240);
+				background-size: cover;
+				height: 100%;
+			}
+			.header {
+				display: flex;
+				justify-content: space-between;
+				height: 100px;
+				width: 1340px;
+				flex-flow: row nowrap;
+				align-items: center;
+			}
+			.navigation {
+				display: flex;
+				flex-flow: row nowrap;
+				gap: 10px;
+			}
+			body {
+				display: flex;
+				flex-flow: column nowrap;
+				justify-content: center;
+				align-items: center;
+				font-family: "Rozha One", serif;
+				
+			}
+			
+			.logo {
+				height: 50px;
+				width:50px;
+				background-image: url("assets/logo.jpg");
+				background-position: center;
+				background-size: cover;
+			}
+			.title {
+				font-size: 50px;
+				font-family: "Playwrite IT Moderna", cursive;
+			}
+			.navigation {
+				font-size: 30px;
+			}
+			h1 {
+				font-size: 30px;
+			}
+			.vspace {
+				flex-basis: 100px;
+				flex-shrink: 10;
+			}
+			.stocks {
+				display: flex;
+				flex-flow: row wrap;
+				width: 1340px;
+
+				gap: 70px;
+				font-size: 22px;
+			}
+			.shroom {
+				height: 440px;
+				width:400px;
+			}
+			.shroom-header {
+				display: flex;
+				flex-flow: row nowrap;
+				justify-content: space-between;
+				margin:20px;
+			}
+			.shroom img {
+
+			}
+			.oos img{
+				filter: opacity(50%) grayscale(100%);
+			}
+			.oos .shroom-header{
+				text-decoration: line-through;
+				color: gray;
+			}
+		</style>
+	</head>
+	<body>
+
+		<div class = "header">
+			<div class = "title">
+				mushroom apothecary
+			</div>
+			<div>
+				<div class = "navigation">
+					<div>Account</div>
+					<div>Cart</div>
+				</div>
+			</div>
+		</div>
+		<div class = "vspace"></div>
+		<div class = "stocks">
+			<div class = "shroom">
+				<img src = "assets/oyster.webp" height = "400" width = "400">
+				<div class = "shroom-header">
+					<div class = "shroom-name"> Oyster Mushrooms</div>
+					<div class = "shroom-price"> P128</div>
+				</div>
+			</div>
+			<div class = "shroom">
+				<img src = "assets/enoki.webp" height = "400" width = "400">
+				<div class = "shroom-header">
+					<div class = "shroom-name"> Enoki Mushrooms</div>
+					<div class = "shroom-price"> P98</div>
+				</div>
+			</div>
+			<div class = "shroom">
+				<img src = "assets/button.webp" height = "400" width = "400">
+				<div class = "shroom-header">
+					<div class = "shroom-name"> Button Mushrooms</div>
+					<div class = "shroom-price"> P88</div>
+				</div>
+			</div>
+			<div class = "shroom">
+				<img src = "assets/shiitake.webp" height = "400" width = "400">
+				<div class = "shroom-header">
+					<div class = "shroom-name"> Shiitake Mushrooms</div>
+					<div class = "shroom-price"> P138</div>
+				</div>
+			</div>
+			<div class = "shroom oos">
+				<img src = "assets/maitake.webp" height = "400" width = "400">
+				<div class = "shroom-header">
+					<div class = "shroom-name"> Maitake Mushrooms</div>
+					<div class = "shroom-price"> P208</div>
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>
